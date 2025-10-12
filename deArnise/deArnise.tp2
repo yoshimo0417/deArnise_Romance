@@ -23,7 +23,7 @@ ALWAYS
 
 
   // Character encoding conversion for BG2EE
-  ACTION_DEFINE_ARRAY deArnise_noconvert BEGIN END
+  ACTION_DEFINE_ARRAY deArnise_noconvert BEGIN install END
   ACTION_DEFINE_ARRAY deArnise_reload BEGIN Setup-deArnise END
 
   LAF HANDLE_CHARSETS
@@ -43,6 +43,7 @@ AUTO_TRA ~deArnise/%s~
 LANGUAGE ~English~ ~English~ ~deArnise/English/Setup-deArnise.tra~
 LANGUAGE ~Russian (translation by Aleksander Zudwa~ ~russian~ ~deArnise/russian/Setup-deArnise.tra~
 LANGUAGE ~Francais (traduit par Mornagest des d'Oghmatiques)~ ~french~ ~deArnise/french/Setup-deArnise.tra~
+LANGUAGE ~Simplified Chinese~ ~schinese~ ~deArnise/schinese/install.tra~
 
 BEGIN @0
 
